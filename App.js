@@ -25,11 +25,13 @@ const styles = StyleSheet.create({
   },
   text:{
     fontWeight: 'bold',
+    fontSize: 18,
     marginBottom: 30,
   },
   image: {
     flex: 1,
     width: '70%',
+    height: '0%',
     resizeMode: 'contain',
   },
 });
