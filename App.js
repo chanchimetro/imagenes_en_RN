@@ -18,7 +18,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 15,
+    paddingTop: 50,
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
@@ -26,12 +26,11 @@ const styles = StyleSheet.create({
   text:{
     fontWeight: 'bold',
     fontSize: 18,
-    marginBottom: 30,
+    marginBottom: 70,
   },
   image: {
-    flex: 1,
     width: '70%',
-    height: '0%',
+    height: '20%',
     resizeMode: 'contain',
   },
 });

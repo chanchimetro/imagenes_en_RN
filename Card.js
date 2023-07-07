@@ -14,8 +14,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    width: '65%',
-    flex: 1,
+    width: '70%',
+    height: '40%',
     backgroundColor: '#267530',
     alignItems: 'center',
     borderRadius: 40,
@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
   text:{
     fontWeight: 'bold',
     color: 'white',
-    marginVertical: 10,
+    fontSize: 15,
+    marginVertical: 15,
   },
   footer:{
     fontWeight: 'bold',
@@ -33,8 +34,8 @@ const styles = StyleSheet.create({
   cardImage: {
     borderTopLeftRadius: 40,
     borderTopRightRadius: 40,
-    flex: 1,
     width: '100%',
+    height: '80%',
     resizeMode: 'cover',
   },
 });
